@@ -4,7 +4,6 @@
   $PDO = null;
   unset( $PDO);
 
-  session_destroy();
   
   if ( ConfigClass::get("config.debug", "config")) 
   {
@@ -14,7 +13,10 @@
           <div class="col-lg-12">
     ';
 
+    echo '<b>SQL:</b><br>';
     debug ( $_debug);
+
+    echo '<b>ERRORES</b>:<br>';
     debug ( $_error);
 
     echo '

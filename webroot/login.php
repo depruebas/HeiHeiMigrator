@@ -7,6 +7,7 @@
   # Control para no reenviar el formulario mas de una vez
   $_SESSION["form_token"] = md5(rand(0,10000000)).time();
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
