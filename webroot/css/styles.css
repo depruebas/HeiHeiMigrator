@@ -1,0 +1,25 @@
+body
+{
+  
+}
+
+.panel-title
+{
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.panel-titulo-gr
+{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.logs
+{
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px solid #c1c1c1;
+  background-color: #F5F5F5;
+}
