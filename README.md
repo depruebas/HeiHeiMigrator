@@ -1,6 +1,6 @@
 # HeiHeiMigrator
 
-Descontinuado
+<b>Descontinuado</b>
 
 Aplicación para migrar una base de datos en MySql a postgreSQL ..
 
